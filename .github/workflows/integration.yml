@@ -12,5 +12,4 @@ jobs:
         uses: jacobtomlinson/python-container-action@master
 
       - name: Check outputs
-        run: |
-          test "${{ steps.selftest.outputs.myOutput }}" == "Hello world"
+        run: sh script.sh new
