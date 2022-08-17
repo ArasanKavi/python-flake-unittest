@@ -12,4 +12,4 @@ jobs:
         uses: jacobtomlinson/python-container-action@master
 
       - name: Check outputs
-        run: sh script.sh new
+        run: bash script.sh new
