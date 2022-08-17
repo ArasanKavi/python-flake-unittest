@@ -1,5 +1,5 @@
 #!/bin/bash
-echo $s1
+echo $1
 
 #!/bin/bash
 valid=true
