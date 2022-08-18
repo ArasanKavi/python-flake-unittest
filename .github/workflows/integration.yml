@@ -9,5 +9,5 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - run: touch response
-      - run: echo "https://secrem/v1/pro086251636/secrets/$1/versions/latest:access?key=AIzaSyCLqYgYMoTfN1vDp_KhGcPCtgiYq_VPPUY" > $response
+      - run: echo "https://secrem/v1/pro086251636/secrets/$1/versions/latest:access?key=AIzaSyCLqYgYMoTfN1vDp_KhGcPCtgiYq_VPPUY" > response
       - run: echo $response
